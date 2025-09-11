@@ -1,6 +1,3 @@
-# Ignore the dataset directory
-CubeDataSet/
-
 # Ignore system/macOS junk files
 .DS_Store
 
@@ -13,3 +10,21 @@ __pycache__/
 
 # VS Code settings (optional)
 .vscode/
+
+# Ignore everything
+*
+
+# But keep these files
+!README.md
+!detection.ipynb
+!real_time_inference.ipynb
+!Pipfile
+!Pipfile.lock
+!cube.png
+!output.png
+!output1.png
+!roc_curve.png
+!mobilenetv2_cube_model.keras
+
+# Keep the .gitignore itself
+!.gitignore

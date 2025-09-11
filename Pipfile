@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+tensorflow = "*"
+pathlib = "*"
+scikit-learn = "*"
 
 [dev-packages]
 ipykernel = "*"
