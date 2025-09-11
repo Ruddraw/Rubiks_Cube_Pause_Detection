@@ -6,7 +6,7 @@ The most important part of this project was creating my own dataset from scratch
 
 ---
 
-## 📂 Project Overview  
+## Project Overview  
 
 - Built a dataset of **9500+ frames** extracted from Rubik’s Cube videos  
   ![screenshot](output1.png)
@@ -22,20 +22,20 @@ The most important part of this project was creating my own dataset from scratch
 
 ---
 
-## 🚀 Features  
+## Features  
 
 - **Custom dataset creation** (frames extracted + labeled manually)  
 - **Model training** with class balancing and augmentation  
 - **Real-time detection** with borders + labels:  
-  - 🔴 Red = Paused  
-  - 🟢 Green = Moving  
+  - Red = Paused  
+  - Green = Moving  
 - **Time analysis graph** showing pause time, move time, and total solve time  
 
 ![screenshot](cube.png)  
 
 ---
 
-## 📊 Example Output  
+## Example Output  
 
 - Paused cube frame (red border + label)  
 - Moving cube frame (green border + label)  
@@ -45,7 +45,7 @@ The most important part of this project was creating my own dataset from scratch
 
 ---
 
-## ⚙️ Installation  
+## Installation  
 
 Clone the repository:  
 ```bash
