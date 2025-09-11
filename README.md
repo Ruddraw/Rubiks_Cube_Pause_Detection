@@ -9,13 +9,14 @@ The most important part of this project was creating my own dataset from scratch
 ## 📂 Project Overview  
 
 - Built a dataset of **9500+ frames** extracted from Rubik’s Cube videos  
-  ![screenshot](CubeDataSet/dataset/output1.png)
+  ![screenshot](output1.png)
 - Labeled frames into two categories: **Paused** and **Moving**  
 - Trained a **MobileNetV2-based CNN** model using TensorFlow/Keras  
 - Achieved:  
-  - **~86% accuracy**  
+  - **~86% accuracy**
+  ![screenshot](result.png)  
   - **0.95 ROC-AUC score**  
-  ![screenshot](CubeDataSet/dataset/roc_curve.png)
+  ![screenshot](roc_curve.png)
 - Implemented real-time video detection with OpenCV  
 
 
@@ -31,7 +32,7 @@ The most important part of this project was creating my own dataset from scratch
   - 🟢 Green = Moving  
 - **Time analysis graph** showing pause time, move time, and total solve time  
 
-![screenshot](CubeDataSet/dataset/cube.png)  
+![screenshot](cube.png)  
 
 ---
 
@@ -41,7 +42,7 @@ The most important part of this project was creating my own dataset from scratch
 - Moving cube frame (green border + label)  
 - Solve time breakdown graph  
 
-  ![screenshot](CubeDataSet/dataset/output.png) 
+  ![screenshot](output.PNG) 
 
 ---
 
@@ -51,4 +52,4 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/rubiks-cube-detection.git
 cd rubiks-cube-detection
-
+```
