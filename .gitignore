@@ -1,16 +1,3 @@
-# Ignore system/macOS junk files
-.DS_Store
-
-# Ignore Python cache
-__pycache__/
-*.pyc
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# VS Code settings (optional)
-.vscode/
-
 # Ignore everything
 *
 
