@@ -41,7 +41,7 @@ The most important part of this project was creating my own dataset from scratch
 - Moving cube frame (green border + label)  
 - Solve time breakdown graph  
 
-  ![screenshot](output.png) 
+  ![screenshot](output.PNG) 
 
 ---
 
